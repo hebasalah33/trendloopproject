@@ -1,0 +1,87 @@
+/* التنسيقات الأساسية */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    background-color: #000;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #111;
+}
+
+.logo {
+    font-size: 24px;
+    color: #ffd700;
+}
+
+.logo span {
+    color: #fff;
+}
+
+.navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #ffd700;
+    font-weight: bold;
+}
+
+.landing {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(to bottom, #111, #333);
+}
+
+.landing h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #ffd700;
+}
+
+.landing .cta-button {
+    padding: 10px 20px;
+    background-color: #ffd700;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+}
+
+.card {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 250px;
+}
+
+.card h3 {
+    color: #ffd700;
+    margin-bottom: 10px;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #111;
+    color: #ffd700;
+}
