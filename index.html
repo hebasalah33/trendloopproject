@@ -1,46 +1,114 @@
 <!DOCTYPE html>
 <html lang="ar">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trend Loop</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>صفحة الويب</title>
+  <link rel="stylesheet" href="trendloop.css"> 
 </head>
 <body>
-    <header class="header">
-        <div class="logo">Trend <span>Loop</span></div>
-        <nav class="navigation">
-            <ul>
-                <li><a href="#home">الرئيسية</a></li>
-                <li><a href="#services">الخدمات</a></li>
-                <li><a href="#contact">اتصل بنا</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <section id="home" class="landing">
-        <h1>مرحبًا بكم في Trend Loop</h1>
-        <p>اكتشف أحدث اتجاهات الموضة</p>
-        <a href="#services" class="cta-button">تعرف على المزيد</a>
-    </section>
 
-    <section id="services" class="cards">
-        <div class="card">
-            <h3>تصاميم عصرية</h3>
-            <p>ابتكر مظهرك الفريد مع أحدث الصيحات.</p>
-        </div>
-        <div class="card">
-            <h3>جودة فائقة</h3>
-            <p>نضمن لك أفضل الخامات والتصاميم.</p>
-        </div>
-        <div class="card">
-            <h3>خدمة ممتازة</h3>
-            <p>تجربة تسوق لا تُنسى.</p>
-        </div>
-    </section>
+  <!-- رأس الصفحة -->
+  <header class="header">
+    <div class="logo">
+      <span> trendloop</span> 
+    </div>
+    <nav class="navigation">
+      <ul>
+        <li><a href="#">الرئيسية</a></li>
+        <li><a href="#">الخدمات</a></li>
+        <li><a href="#">اتصل بنا</a></li>
+        <li><a href="#"> الوطن</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <footer class="footer">
-        <p>© 2024 Trend Loop - جميع الحقوق محفوظة</p>
-    </footer>
+  <!-- القسم الافتتاحي -->
+  <section class="landing">
+    <h1>مرحبًا بكم في موقعنا</h1>
+    <p>استمتع بأفضل الخدمات التي نقدمها.</p>
+    <a href="#" class="cta-button">اكتشف المزيد</a>
+  </section>
+
+  <!-- قسم الخدمات -->
+  <section class="services">
+    <h1>خدماتنا</h1>
+    <div class="cards-container">
+      <div class="card">
+        <div class="card-icon">
+          <img src="" alt="">
+        </div>
+        <h2>Innovative design services</h2>
+        <p>We design unique fashions that suit the individual needs of customers.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">
+          <img src="" alt="">
+        </div>
+        <h2> Fashion Styling</h2>
+        <p>Online fashion coordination service with fashion experts</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">
+          <img src="" alt="">
+        </div>
+        <h2>Fast delivery of luxury fashion</h2>
+        <p>Delivering luxury pieces to customers in less than two hours.</p>
+      </div>
+    </div>
+  </section>
+  <!-- protofolio-->
+  <div class="container">
+    <h2 class="title">Our Portfolio</h2>
+    <div class="line"></div>
+    <p class="desc">"We believe that creativity and technology are the foundation of success in the digital age.
+       For this reason, we collaborate with our clients to achieve their goals in a personal and professional manner."</p>
+    <div class="cards">
+    <!-- بطاقة 1-->
+    <div class="card">
+    <div class="card-img">
+    <img src="8.jpg" alt="">
+    <div class="layer"></div>
+    </div>
+      </div>
+                               
+    <!-- بطاقة 2 -->
+     <div class="card">
+     <div class="card-img mg">
+    <img src="0.jpg" alt="">
+     <div class="layer"></div>
+     </div>
+    </div>
+                                   
+     <!-- بطاقة 3 -->
+    <div class="card">
+    <div class="card-img ">
+    <img src="https://i.pinimg.com/736x/0d/12/db/0d12dbf7678c749814df461218703f8d.jpg" alt="">
+    <div class="layer"></div>
+    </div>
+     </div>
+     </div>      
+
+  <!-- قسم النماذج -->
+  <section class="form-section">
+    <h2>اتصل بنا</h2>
+    <form>
+      <input type="text" placeholder="الاسم الكامل" required>
+      <input type="email" placeholder="البريد الإلكتروني" required>
+      <textarea placeholder="رسالتك" required></textarea>
+      <button type="submit">إرسال</button>
+    </form>
+  </section>
+
+  <!-- التذييل -->
+  <footer class="footer">
+    <p>حقوق النشر © 2024. كل الحقوق محفوظة.</p>
+    <div class="social-icons">
+      <a href="#">فيسبوك</a>
+      <a href="#">تويتر</a>
+      <a href="#">إنستغرام</a>
+    </div>
+  </footer>
+
 </body>
 </html>
